@@ -2,12 +2,32 @@
 <html>
     <head>
         <meta charset="utf-8"> 
-        <title>My webpage</title>
+        <title>About</title>
         <style>
             .header{
                 background-color: rgb(194, 41, 41);
                 color: black;
                 margin-top: 100px;
+                margin-left: 100px;
+                padding: 20px;
+                width: 80%;
+                border-radius: 20px;
+                display: inline-block;
+            }
+            .footer{
+                background-color: burlywood;
+                color: black;
+                margin-top: 20px;
+                margin-left: 100px;
+                padding: 20px;
+                width: 80%;
+                border-radius: 20px;
+                display: inline-block;
+            }
+            .section{
+                background-color: gray;
+                color: black;
+                margin-top: 20px;
                 margin-left: 100px;
                 padding: 20px;
                 width: 80%;
@@ -44,16 +64,27 @@
                 background-color: white;
                 color: black;
             }
+            .nav a:active{
+                background-color: green;
+            }
         </style>
     </head>
     <body>
        <div>
            <div class="header"><img src = "pealhassan.jpg" title="MD. Peal Hassan" class="header2"><h1 style = "padding-left: 800px;font-size: 50px;">MD. Peal Hassan</h1><p style="padding-left:800px;font-size: 30px;">A Personal Portofolio</p></div>
            <div class = "nav">
-               <a href = "about.html" target="_blank">About</a>
-               <a href = "#">Profile</a>
+               <a href = "about.html" target = "_blank">About</a>
+               <a href = "profile.html" target = "_blank">Profile</a>
                <a href = "#">Skill</a>
            </div>
+           <div class="section">
+               <h1>About</h1>
+               <p><b><i><b style="font-size: 30px;">I</b> am Peal Hassan. I have created this portofolio using html ans css only. I am a beginner at frontend development. This is my first Project and I am enjoying a lot. To complete the project, i have to face different problems which killed my time but it's okay, i am done.</i></b></p>
+           </div>
+           <footer class = "footer">
+               <b><p style = "text-align: center;">Contact Email: <email>pealhasan6@gmail.com</email></p></b>
+               <b><p style = "text-align: center;">Contact Phone No: +8801779224826</p></b>
+           </footer>
        </div>
     </body>
 </html>
